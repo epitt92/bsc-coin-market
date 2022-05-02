@@ -1,0 +1,35 @@
+{
+  "name": "testing-coinmarketcap-api",
+  "version": "1.0.0",
+  "description": "A simple table that displays information about current bitcoin data.",
+  "keywords": [
+    "react",
+    "apis",
+    "cryptocurreny",
+    "react-table"
+  ],
+  "homepage": "https://codesandbox.io/s/new",
+  "main": "src/index.js",
+  "dependencies": {
+    "@ant-design/charts": "^1.3.6",
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.20.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.6",
+    "moment": "^2.29.3",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-scripts": "^1.1.0",
+    "react-table": "^6.8.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "nodemon server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
